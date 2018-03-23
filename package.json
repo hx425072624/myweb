@@ -7,11 +7,20 @@
   },
   "dependencies": {
     "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
+    "cookie-parser": "^1.4.3",
     "debug": "~2.6.9",
     "express": "~4.15.5",
+    "express-session": "^1.15.6",
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
+    "mssql": "^4.1.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
     "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^1.1.11",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
   }
 }
